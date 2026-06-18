@@ -1,0 +1,322 @@
+.em-cartaz-section {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 1440px;
+    padding: 0px 173px;
+    position: relative;
+    width: 1280px;
+    margin-top: -182px;
+}
+
+.em-cartaz-section .container {
+    align-items: flex-end;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 817.67px;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+}
+
+.em-cartaz-section .heading {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    position: relative;
+}
+
+.em-cartaz-section .icon-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+}
+
+.em-cartaz-section .icon {
+    height: 16px;
+    
+    width: 20px;
+    margin-left: 10%;
+}
+
+.em-cartaz-section .text-wrapper {
+    align-items: center;
+    color: #e5e2e1;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    
+}
+
+.em-cartaz-section .div {
+    height: 448px;
+    margin-right: -447px;
+    overflow: hidden;
+    overflow-x: scroll;
+    position: relative;
+    width: 1567px;
+}
+
+.em-cartaz-section .div::-webkit-scrollbar {
+    display: none;
+    width: 0;
+}
+
+.em-cartaz-section .movie-card {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 28px);
+    left: 1480px;
+    position: absolute;
+    top: 4px;
+    width: 280px;
+}
+
+.em-cartaz-section .overlay-border {
+    -webkit-backdrop-filter: blur(6px) brightness(100%);
+    align-items: flex-start;
+    align-self: stretch;
+    aspect-ratio: 0.67;
+    backdrop-filter: blur(6px) brightness(100%);
+    background-color: #1e1e1e99;
+    border: 1px solid;
+    border-color: #ffffff1a;
+    border-radius: 8px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.em-cartaz-section .movie-poster {
+    align-self: stretch;
+    flex: 0 0 auto;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+}
+
+.em-cartaz-section .gradient {
+    background: linear-gradient(
+        0deg,
+        rgba(19, 19, 19, 0.9) 0%,
+        rgba(19, 19, 19, 0.2) 50%,
+        rgba(19, 19, 19, 0) 100%
+    );
+    height: calc(100% - 2px);
+    left: 1px;
+    opacity: 0.8;
+    position: absolute;
+    top: 1px;
+    width: calc(100% - 2px);
+}
+
+.em-cartaz-section .container-2 {
+    align-items: flex-start;
+    bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5px;
+    left: 1px;
+    padding: 12px;
+    position: absolute;
+    width: calc(100% - 2px);
+}
+
+.em-cartaz-section .div-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+.em-cartaz-section .text-wrapper-2 {
+    align-items: center;
+    align-self: stretch;
+    color: #e5e2e1;
+    display: flex;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-top: -1px;
+    position: relative;
+}
+
+.em-cartaz-section .container-3 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 4px;
+    position: relative;
+    width: 100%;
+}
+
+.em-cartaz-section .img {
+    height: 11.67px;
+    position: relative;
+    width: 11.67px;
+}
+
+.em-cartaz-section .text-wrapper-3 {
+    align-items: center;
+    color: #ffbd2e;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    margin-left: 4.5%;
+}
+
+.em-cartaz-section .overlay-overlayblur {
+    -webkit-backdrop-filter: blur(2px) brightness(100%);
+    align-items: center;
+    backdrop-filter: blur(2px) brightness(100%);
+    background-color: #e5091433;
+    display: flex;
+    height: calc(100% - 2px);
+    justify-content: center;
+    left: 1px;
+    opacity: 0;
+    position: absolute;
+    top: 1px;
+    width: calc(100% - 2px);
+}
+
+.em-cartaz-section .button {
+    all: unset;
+    align-items: center;
+    background-color: #e50914;
+    border-radius: 9999px;
+    box-shadow: 0px 0px 20px #e5091466;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px 24px;
+    position: relative;
+}
+
+.em-cartaz-section .text {
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: 0.7px;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.em-cartaz-section .overlay-border-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 28px);
+    left: 1184px;
+    position: absolute;
+    top: 4px;
+    width: 280px;
+}
+
+.em-cartaz-section .movie-card-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 28px);
+    left: 888px;
+    position: absolute;
+    top: 4px;
+    width: 280px;
+}
+
+.em-cartaz-section .movie-card-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 28px);
+    left: 592px;
+    position: absolute;
+    top: 4px;
+    width: 280px;
+}
+
+.em-cartaz-section .overlay-border-2 {
+    -webkit-backdrop-filter: blur(6px) brightness(100%);
+    align-self: stretch;
+    aspect-ratio: 0.67;
+    backdrop-filter: blur(6px) brightness(100%);
+    background-color: #1e1e1e99;
+    border: 1px solid;
+    border-color: #ffffff1a;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.em-cartaz-section .image {
+    aspect-ratio: 1.78;
+    height: 430px;
+    left: -252px;
+    object-fit: cover;
+    position: absolute;
+    top: -5px;
+    width: 764px;
+}
+
+.em-cartaz-section .movie-card-4 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 28px);
+    left: 296px;
+    position: absolute;
+    top: 4px;
+    width: 280px;
+}
+
+.em-cartaz-section .movie-card-5 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 28px);
+    left: 0;
+    position: absolute;
+    top: 4px;
+    width: 280px;
+}

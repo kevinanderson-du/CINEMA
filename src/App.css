@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121313;
+    
+}
+
+.header-glass {
+  /* Fixa o header no topo para que o conteúdo passe por baixo dele */
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0px 25px 45px -10px #00000080;
+  
+  /* Cor escura com transparência (o último valor é a opacidade) */
+  background-color: rgba(15, 15, 15, 0.6); 
+  
+  /* O efeito de desfoque mágico */
+  backdrop-filter: blur(12px); 
+  -webkit-backdrop-filter: blur(12px); /* Essencial para funcionar no Safari */
+  
+  /* Opcional: Adicionar uma borda muito sutil em baixo ajuda no efeito de vidro */
+  border-bottom: 1px solid rgba(103, 103, 103, 0.261);
+  padding: 30px 30px;
+ 
+
+  
+}
+
+.imagem{
+  width: 100%;
+}
+
+.cineritz {
+  margin-left: 8%;
+  width: 155px;
+  
+}
+
+.fundo-duna {
+  /* Coloca a imagem como fundo da section */
+  background-image: url('./DUNA.png'); 
+  
+  /* Faz a imagem cobrir a tela toda bonitinha */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  /* Tamanho da section */
+  min-height: 100vh; 
+  width: 100%;
+  
+  /* Empurra o texto um pouco pra baixo para não ficar grudado/escondido atrás do Header */
+  padding-top: 180px; 
+}
+
+.content{
+  margin-left: 4.5%;
+  margin-top: 17%;
+}
+
+.em-cartaz {
+  margin-left: 4.5%;
+  margin-top: 25%;
+}
+.lista-cards{
+  
+  display: flex;
+  gap: 16px; /* O espaço entre cada cartão */
+  overflow-x: auto; /* Adiciona barra de rolagem horizontal se tiver muitos filmes */
+  padding-bottom: 20px;
+  margin-left: 9.1%;
+  margin-right: 9.1%;
+}
+
+
+/*esconde a barra de rolagem na parte de baixo da página*/
+.lista-cards::-webkit-scrollbar {
+  display: none;
+}
+
+/*Mesmo tendo o overflow-x: auto; precisa ter o display: none; porque o overflow é o q faz o carrossel rodar, e o display esconde a barra*/

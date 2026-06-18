@@ -1,0 +1,27 @@
+.titulos-tema {
+    align-items: center;
+    color: #e5e2e1;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-top: -180px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    gap: 12px;
+}
+
+.titulos-tema .icon {
+    height: 16px;
+    align-items: flex-start;
+    width: 20px;
+    margin-left: 87%;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    gap: 12px;
+}
