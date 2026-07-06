@@ -111,7 +111,7 @@ const eventos = [
     titulo: 'Combo Individual',
     
     desc: 'R$ 38,00',
-    id: 2},
+    id: 3},
 
     {
     capa: '/REFRIS.png',
@@ -120,7 +120,20 @@ const eventos = [
     titulo: 'Combo Refil Duplo',
     
     desc: 'R$ 35,00',
-    id: 2},
+    id: 4},
+
+    {
+    capa: '/COMBO BASICO.png',
+    mini_card: temas[1],
+    
+    titulo: 'Combo Básico',
+    
+    desc: 'R$ 32,00',
+    id: 5},
+
+    
+
+    
   ]
 
 
