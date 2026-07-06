@@ -78,13 +78,40 @@ const eventos = [
     id: 4},
 
     {
-    capa: '/michael.png',
+    capa: '/COMBO PIPOCA 1.png',
     mini_card: temas[1],
     
     titulo: 'Combo Casal P',
     
     desc: 'R$ 64,00',
     id: 0},
+
+    {
+    capa: '/COMBO PIPOCA 1.png',
+    mini_card: temas[1],
+    
+    titulo: 'Combo Casal M',
+    
+    desc: 'R$ 70,00',
+    id: 1},
+
+    {
+    capa: '/COMBO PIPOCA 1.png',
+    mini_card: temas[1],
+    
+    titulo: 'Combo Casal G',
+    
+    desc: 'R$ 78,00',
+    id: 2},
+
+    {
+    capa: '/COMBO PIPOCA 1.png',
+    mini_card: temas[1],
+    
+    titulo: 'Combo Individual',
+    
+    desc: 'R$ 38,00',
+    id: 2},
   ]
 
 
