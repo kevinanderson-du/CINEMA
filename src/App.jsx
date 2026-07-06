@@ -78,7 +78,7 @@ const eventos = [
     id: 4},
 
     {
-    capa: '/COMBO PIPOCA 1.png',
+    capa: '/COMBO CASAL 2.png',
     mini_card: temas[1],
     
     titulo: 'Combo Casal P',
@@ -96,7 +96,7 @@ const eventos = [
     id: 1},
 
     {
-    capa: '/COMBO PIPOCA 1.png',
+    capa: '/CASAL G.png',
     mini_card: temas[1],
     
     titulo: 'Combo Casal G',
@@ -105,12 +105,21 @@ const eventos = [
     id: 2},
 
     {
-    capa: '/COMBO PIPOCA 1.png',
+    capa: '/COMBO INDIVIDUAL.png',
     mini_card: temas[1],
     
     titulo: 'Combo Individual',
     
     desc: 'R$ 38,00',
+    id: 2},
+
+    {
+    capa: '/REFRIS.png',
+    mini_card: temas[1],
+    
+    titulo: 'Combo Refil Duplo',
+    
+    desc: 'R$ 35,00',
     id: 2},
   ]
 
