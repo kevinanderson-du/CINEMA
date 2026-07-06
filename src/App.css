@@ -81,3 +81,11 @@ body {
 }
 
 /*Mesmo tendo o overflow-x: auto; precisa ter o display: none; porque o overflow é o q faz o carrossel rodar, e o display esconde a barra*/
+
+.container-prateleiras {
+  /* Puxa TODAS as prateleiras juntas para cima do banner */
+  margin-top: -180px; 
+  
+}
+
+

@@ -10,8 +10,17 @@ const temas = [
     {
       id: 1, nome: 'Em Cartaz'
     },
+
+    {
+      id: 2, nome: 'Pra matar a fome'
+    },
+
+    {
+      id: 3, nome: 'a'
+    },
     
      ]
+
 
 const eventos = [
     {
@@ -67,6 +76,15 @@ const eventos = [
     reloginho: '/reloginho.svg',
     desc: '156 min',
     id: 4},
+
+    {
+    capa: '/michael.png',
+    mini_card: temas[1],
+    
+    titulo: 'Combo Casal P',
+    
+    desc: 'R$ 64,00',
+    id: 0},
   ]
 
 
@@ -82,7 +100,7 @@ const eventos = [
         
       </section>
 
-     
+     <div className="container-prateleiras">
      
      {temas.map(function(temaAtual) {
   
@@ -93,7 +111,7 @@ const eventos = [
   });
 
   return (
-    <section key={temaAtual.id}>
+    <section key={temaAtual.id} className="prateleira">
       
       
       <Tema tema={temaAtual} />
@@ -107,10 +125,11 @@ const eventos = [
           );
         })}
       </div>
+      
        </section>
   );
 })}
-
+</div>
 
       <section>
         

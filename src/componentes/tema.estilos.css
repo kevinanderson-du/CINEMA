@@ -6,12 +6,14 @@
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 0;
-    line-height: 40px;
-    margin-top: -180px;
+    line-height: 30px;
+    margin-bottom: 20px; /* Adicionar espaço entre o título e os filmes */
     position: relative;
     white-space: nowrap;
-    width: fit-content;
+    width: 10.5%; /* Estica a caixa do título */
+    justify-content: flex-start; /* Trava o ícone e o texto na esquerda */
     gap: 12px;
+    
 }
 
 .titulos-tema .icon {
