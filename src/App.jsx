@@ -17,7 +17,7 @@ const temas = [
     },
 
     {
-      id: 3, nome: 'a'
+      id: 3, nome: 'Meus ingressos', icone: "./INGRESSOS.svg"
     },
     
      ]
