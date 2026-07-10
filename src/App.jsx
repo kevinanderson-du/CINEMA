@@ -2,17 +2,18 @@ import { Content } from './componentes/Content' // Importe o componente que voc√
 import {EmCartazSection} from './componentes/Em_cartaz'
 import { Tema } from './componentes/Tema'
 import { Card } from './componentes/Card'
+
 import './App.css'
 
 function App() {
   
 const temas = [
     {
-      id: 1, nome: 'Em Cartaz'
+      id: 1, nome: 'Em Cartaz', icone: "./icone cinema.svg",
     },
 
     {
-      id: 2, nome: 'Pra matar a fome'
+      id: 2, nome: 'Pra matar a fome', icone: "./PIPOCA2.svg"
     },
 
     {
