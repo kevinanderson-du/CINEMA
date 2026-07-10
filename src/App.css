@@ -72,12 +72,23 @@ body {
   padding-bottom: 20px;
   margin-left: 9.1%;
   margin-right: 9.1%;
+  
+  scrollbar-width: none !important;
 }
 
 
 /*esconde a barra de rolagem na parte de baixo da página*/
 .lista-cards::-webkit-scrollbar {
-  display: none;
+  display: none !important;
+  width: 0 !important;  /* Esmaga a largura */
+  height: 0 !important;
+}
+
+/* MATANDO AS PEÇAS DA BARRA (O segredo está aqui!) */
+.lista-cards::-webkit-scrollbar-track,
+.lista-cards::-webkit-scrollbar-thumb {
+  display: none !important;
+  background: transparent !important;
 }
 
 /*Mesmo tendo o overflow-x: auto; precisa ter o display: none; porque o overflow é o q faz o carrossel rodar, e o display esconde a barra*/
@@ -99,24 +110,24 @@ html {
 /* 2. Chrome, Edge, Safari e Opera */
 
 /* Largura da barra de rolagem */
-::-webkit-scrollbar {
+html ::-webkit-scrollbar {
   width: 8px; /* Deixa a barra mais fina (o padrão é 16px) */
   height: 8px; /* Para a barra horizontal, caso exista */
 }
 
 /* Fundo da barra (o "trilho" por onde ela corre) */
-::-webkit-scrollbar-track {
+html ::-webkit-scrollbar-track {
   background: transparent; /* Deixa transparente para mesclar com o fundo do seu site */
 }
 
 /* O "puxador" da barra (a parte que você clica e arrasta) */
-::-webkit-scrollbar-thumb {
+html ::-webkit-scrollbar-thumb {
   background: #4a4a4a; /* Cor cinza escuro, quase igual a da foto */
   border-radius: 10px; /* Deixa as pontas bem arredondadas */
 }
 
 /* O "puxador" quando você passa o mouse por cima */
-::-webkit-scrollbar-thumb:hover {
+html ::-webkit-scrollbar-thumb:hover {
   background: #6a6a6a; /* Fica um pouquinho mais claro para dar feedback visual */
 }
 
