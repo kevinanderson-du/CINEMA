@@ -88,4 +88,36 @@ body {
   
 }
 
+/* ESTILIZAÇÃO DA BARRA DE ROLAGEM */
+
+/* 1. Firefox */
+html {
+  scrollbar-width: thin; /* Deixa a barra fina */
+  scrollbar-color: #555555 transparent; /* Cor do "puxador" e cor do fundo */
+}
+
+/* 2. Chrome, Edge, Safari e Opera */
+
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+  width: 8px; /* Deixa a barra mais fina (o padrão é 16px) */
+  height: 8px; /* Para a barra horizontal, caso exista */
+}
+
+/* Fundo da barra (o "trilho" por onde ela corre) */
+::-webkit-scrollbar-track {
+  background: transparent; /* Deixa transparente para mesclar com o fundo do seu site */
+}
+
+/* O "puxador" da barra (a parte que você clica e arrasta) */
+::-webkit-scrollbar-thumb {
+  background: #4a4a4a; /* Cor cinza escuro, quase igual a da foto */
+  border-radius: 10px; /* Deixa as pontas bem arredondadas */
+}
+
+/* O "puxador" quando você passa o mouse por cima */
+::-webkit-scrollbar-thumb:hover {
+  background: #6a6a6a; /* Fica um pouquinho mais claro para dar feedback visual */
+}
+
 
