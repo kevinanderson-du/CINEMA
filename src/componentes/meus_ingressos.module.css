@@ -1,0 +1,33 @@
+.voce_tem {
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 9.1%;
+    line-height: 20px;
+    
+}
+
+.numero {
+    color: #FFBD2F;
+}
+
+.texto_um {
+    margin-bottom: 50px;
+}
+
+.botaoDeComprar {
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: -4.8%;
+    margin-top: -270px;
+    position: relative;
+    
+}
+
+.botaoDeComprar div {
+  height: auto !important;
+  padding: 0 !important; /* Aproveita e tira aquele espaço lateral gigante também */
+}
+
+
+

@@ -2,6 +2,7 @@ import { Content } from './componentes/Content' // Importe o componente que voc√
 import {EmCartazSection} from './componentes/Em_cartaz'
 import { Tema } from './componentes/Tema'
 import { Card } from './componentes/Card'
+import {Ingresso} from './componentes/meus_ingressos'
 
 import './App.css'
 
@@ -152,7 +153,7 @@ const eventos = [
 
      <div className="container-prateleiras">
      
-     {temas.map(function(temaAtual) {
+     {temas.map((temaAtual) => {
   
   // 2. O FILTRO: Vasculha a lista de eventos e guarda s√≥ os deste tema
   // Ele compara o ID do tema do evento com o ID da prateleira atual
@@ -168,7 +169,7 @@ const eventos = [
 
       
       <div className='lista-cards'>
-        {eventosDestaPrateleira.map(function(eventoAtual) {
+        {eventosDestaPrateleira.map((eventoAtual) => {
           return (
             // Agora sim passamos o evento correto! E usamos o seu novo ID como key.
             <Card key={eventoAtual.id} evento={eventoAtual} />
@@ -182,7 +183,7 @@ const eventos = [
 </div>
 
       <section>
-        
+        <Ingresso/>
        {/* <EmCartazSection className='em-cartaz'/> AGUARDAR PRA USAR*/} 
       </section>
       <div></div>
